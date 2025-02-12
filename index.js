@@ -47,6 +47,7 @@ app.post('/jwt', async(req, res)=>{
 //   res.clearCookie('myToken', { path: '/', httpOnly: true, secure: true, sameSite: 'none' });
 //   res.status(200).send('Logged out');
 // });
+
 // Delete cookie
 app.get('/jwt/logout', (req, res) => {
   res.clearCookie('myToken', {
