@@ -17,7 +17,8 @@ app.use(express.json());
 app.use(cookeiParser());
 app.use(cors({
     origin: [
-      'https://muntasir-backend.vercel.app'
+      'https://muntasir.vercel.app',
+      'http://localhost:3000'
     ], 
     credentials: true,
 }));
